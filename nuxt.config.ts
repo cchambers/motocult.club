@@ -1,6 +1,9 @@
 export default defineNuxtConfig({
-  compatibilityDate: '2025-05-31',
+  compatibilityDate: '2025-01-15',
   devtools: { enabled: false },
+  nitro: {
+    preset: 'netlify'
+  },
   app: {
     head: {
       title: 'Moto Cult',
